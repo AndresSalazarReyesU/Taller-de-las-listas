@@ -1,0 +1,90 @@
+/* Estilos generales */
+html, body {
+  height: 100%; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e8f5e9; /* Color de fondo suave */
+  color: #333; /* Color del texto */
+}
+
+/* Navegación */
+nav {
+  position: relative; /* Posición relativa para centrar el menú */
+  background-color: #388e3c; /* Color de fondo verde oscuro */
+  padding: 15px; /* Espacio alrededor del menú */
+  margin: 20px auto; /* Centra el menú horizontalmente */
+  width: fit-content; /* Ajusta el ancho al contenido del menú */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Estilo del menú */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Alineación horizontal */
+  justify-content: center; /* Centra los enlaces en el menú */
+}
+
+nav ul li {
+  margin: 0 20px; /* Espaciado entre los elementos del menú */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff; /* Color del texto en blanco */
+  padding: 10px 20px;
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s, transform 0.3s; /* Transición suave */
+}
+
+nav ul li a:hover {
+  background-color: #66bb6a; /* Color al pasar el ratón */
+  transform: scale(1.05); /* Efecto de escala al pasar el ratón */
+}
+
+/* Contenido principal */
+.main {
+  padding: 40px; /* Espacio alrededor del contenido */
+  max-width: 800px; /* Ancho máximo del contenido */
+  margin: 20px auto; /* Centra el contenido */
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo de las imágenes */
+.example img {
+  max-width: 100%; /* Asegura que las imágenes no excedan el ancho de su contenedor */
+  height: auto; /* Mantiene la proporción de las imágenes */
+  display: block;
+  margin: 20px auto; /* Centra la imagen horizontalmente */
+  border-radius: 8px; /* Bordes redondeados en las imágenes */
+}
+
+/* Estilos para los encabezados */
+h1 {
+  color: #388e3c; /* Color verde para encabezados */
+  font-size: 2.5em; /* Tamaño de fuente mayor */
+  margin-bottom: 20px;
+  text-align: center; /* Centra el título */
+}
+
+/* Estilo para los párrafos */
+p {
+  line-height: 1.6; /* Mejora la legibilidad */
+  margin-bottom: 15px; /* Espacio inferior entre párrafos */
+}
+
+/* Estilos de pie de página (si se desea agregar) */
+footer {
+  text-align: center; /* Centra el texto del pie de página */
+  padding: 10px 0;
+  background-color: #388e3c; /* Color de fondo verde */
+  color: white; /* Color del texto en blanco */
+  position: relative;
+  bottom: 0;
+  width: 100%; /* Ocupa todo el ancho */
+}
